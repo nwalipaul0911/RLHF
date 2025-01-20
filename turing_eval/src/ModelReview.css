@@ -1,0 +1,56 @@
+.ModelReview {
+  font-family: Arial, sans-serif;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.responses button {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.responses button.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+textarea {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 600px;
+  height: 60px;
+}
+
+.reason-item {
+  margin-bottom: 10px;
+}
+
+.reasons button {
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.severity {
+  font-weight: bold;
+  color: #ff5722;
+}

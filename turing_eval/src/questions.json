@@ -1,0 +1,56 @@
+{
+  "Accuracy": [{
+    "Question": "The code run without a bug?",
+    "Options": [true, false],
+    "Expected_answer": true,
+    "severity": "Major"
+  }, {
+    "Question": "The code logic is correct for the user requirement?",
+    "Options": [true, false],
+    "Expected_answer": true,
+    "severity": "Major"
+  }],
+  "Efficiency": [{
+    "Question": "The implementation consider all edge cases?",
+    "Options": [true, false],
+    "Expected_answer": true,
+    "severity": "Major"
+  },
+  {
+    "Question": "The code follow best practices?",
+    "Options": [true, false],
+    "Expected_answer": true,
+    "severity": "Moderate"
+  },
+  {
+    "Question": "The code does not contain redundant computation?",
+    "Options": [true, false],
+    "Expected_answer": true,
+    "severity": "Major"
+  }
+  ],
+  "Presentation": [
+    {
+      "Question": "The code is well documented (Comments)?",
+      "Options": [true, false],
+      "Expected_answer": true,
+      "severity": "Minor"
+    },{
+      "Question": "Are variables and function names descriptive?",
+      "Options": [true, false],
+      "Expected_answer": true,
+      "severity": "Minor"
+    },{
+      "Question": "No markdown issues in the response?",
+      "Options": [true, false],
+      "Expected_answer": true,
+      "severity": "Moderate"
+    },
+    {
+      "Question": "No missing language tags?",
+      "Options": [true, false],
+      "Expected_answer": true,
+      "severity": "Moderate"
+    }
+  ]
+}

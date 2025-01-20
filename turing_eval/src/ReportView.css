@@ -1,0 +1,19 @@
+.ReportView {
+  margin-top: 20px;
+}
+
+.report-category {
+  margin-bottom: 20px;
+}
+
+.copy-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: #45a049;
+}
